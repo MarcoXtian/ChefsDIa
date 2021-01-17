@@ -1,6 +1,6 @@
 
 
-const api = "http://localhost:8080/api/recipes";
+const api = "https://chefsiaryserver.herokuapp.com/api/recipes";
 
 fetch(api)
     .then((resp) => resp.json())
