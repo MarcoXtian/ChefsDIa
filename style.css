@@ -1,0 +1,1525 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #141518;
+  height: 100vh;
+  width: 100vw;
+}
+
+.registrationmain {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupLABEL {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #615f5f;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20pt;
+}
+
+.signInLABEL {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #615f5f;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20pt;
+}
+
+.SignIn {
+  top: 20px;
+  right: 20px;
+  position: absolute;
+  height: 4%;
+  width: 7%;
+  background-color: #ffa200;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 15pt;
+  font-weight: bold;
+  color: #464646;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.SignIn:hover {
+  background-color: #e29104;
+  color: white;
+}
+
+.SignIn a {
+  text-decoration: none;
+  color: #464646;
+  transition: all 0.3s ease 0s;
+}
+
+.SignIn a:hover {
+  color: white;
+}
+/*Sign ,Up*/
+
+.SignUp {
+  top: 20px;
+  right: 20px;
+  position: absolute;
+  height: 4%;
+  width: 7%;
+  background-color: #ffa200;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 15pt;
+  font-weight: bold;
+  color: #464646;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.SignUp:hover {
+  background-color: #e29104;
+  color: white;
+}
+
+.SignUp a {
+  text-decoration: none;
+  color: #464646;
+  transition: all 0.3s ease 0s;
+}
+
+.SignUp a:hover {
+  color: white;
+}
+
+.reg1 {
+  height: 80%;
+  width: 30%;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  padding: 0px 50px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.reg1 h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ff7a7a;
+  font-style: italic;
+  font-size: 35pt;
+  cursor: pointer;
+}
+
+.text {
+  height: 10%;
+  width: 100%;
+  border: #615f5f 2px solid;
+  border-radius: 30px;
+  margin: 10px;
+  padding-left: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15pt;
+  color: rgb(104, 104, 104);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.reg2 {
+  height: 80%;
+  width: 30%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.reg2 img {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.submit {
+  height: 10%;
+  width: 50%;
+  background-color: #ffa200;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 15pt;
+  font-weight: bold;
+  color: #464646;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #e29104;
+  color: white;
+}
+
+header {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10%;
+  background-color: #141518;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+header h1 {
+  color: #e29104;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30pt;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header nav ul {
+  height: 100%;
+  display: flex;
+  padding: 0 50px;
+}
+
+header nav ul li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+.nav-list li {
+  height: 100%;
+  display: flex;
+  padding: 0 30px;
+  margin: 10px;
+}
+
+.nav-list a {
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: #ff7a7a;
+  font-size: 15pt;
+  margin: 10px;
+}
+
+i {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: #ff7a7a;
+  font-size: 15pt;
+  margin: 10px;
+}
+
+.nav-list li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-list li a:hover {
+  color: #0088a9;
+  border-bottom: #e29104 4px solid;
+}
+
+.homemain {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homehero1 {
+  height: 90%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+.homehero1 h2 {
+  color: #00bdf8;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25pt;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.homehero1 h1 {
+  color: #ff7a7a;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30pt;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.homehero2 {
+  height: 90%;
+  width: 50%;
+}
+
+.homehero2 img {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.getstarted {
+  height: 6%;
+  width: 40%;
+  background-color: #ffa200;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 15pt;
+  font-weight: bold;
+  color: #464646;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  margin: 10px 10px 70px 10px;
+}
+
+.getstarted:hover {
+  background-color: #e29104;
+  color: white;
+}
+
+.recipemain {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.recipehero1 {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.recipehero2 {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.recipebox {
+  height: 90%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  margin: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background-color: rgba(116, 0, 0, 0.603);
+}
+
+.recipebox:hover {
+  background-color: rgb(134, 48, 48);
+}
+
+.recipebox img {
+  height: 60%;
+  width: 80%;
+  margin: 10px;
+}
+
+.select-btn {
+  height: 10%;
+  width: 40%;
+  background-color: #ffa200;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 15pt;
+  font-weight: bold;
+  color: #464646;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.select-btn:hover {
+  background-color: #e29104;
+  color: white;
+}
+
+.recipebox h1 {
+  color: #00bdf8;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20pt;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.chickenmain {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.chickenmain h1 {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: #e29104;
+  font-size: 40pt;
+}
+
+.chickenpick {
+  height: 90%;
+  width: 100%;
+  padding: 0px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 10px;
+}
+
+.chickenbox {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background-color: rgba(116, 0, 0, 0.603);
+}
+
+.chickenbox:hover {
+  background-color: rgb(134, 48, 48);
+}
+
+.chickenbox h1 {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 20pt;
+  color: #00bdf8;
+}
+
+.chickenbox img {
+  height: 60%;
+  width: 80%;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.vegetablemain {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.vegetablemain h1 {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: #e29104;
+  font-size: 40pt;
+}
+
+.vegetablepick {
+  height: 90%;
+  width: 100%;
+  padding: 0px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 10px;
+}
+
+.vegetablebox {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background-color: rgba(116, 0, 0, 0.603);
+}
+
+.vegetablebox:hover {
+  background-color: rgb(134, 48, 48);
+}
+
+.vegetablebox h1 {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 20pt;
+  color: #00bdf8;
+}
+
+.vegetablebox img {
+  height: 60%;
+  width: 80%;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.btn-ingridients {
+  height: 10%;
+  width: 50%;
+  background-color: #ffa200;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 15pt;
+  font-weight: bold;
+  color: #464646;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn-ingridients:hover {
+  background-color: #e29104;
+  color: whitesmoke;
+}
+
+.beefmain {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.beefmain h1 {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: #e29104;
+  font-size: 40pt;
+}
+
+.beefpick {
+  height: 90%;
+  width: 100%;
+  padding: 0px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 10px;
+}
+
+.beefbox {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background-color: rgba(116, 0, 0, 0.603);
+}
+
+.beefbox:hover {
+  background-color: rgb(134, 48, 48);
+}
+
+.beefbox h1 {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 20pt;
+  color: #00bdf8;
+}
+
+.beefbox img {
+  height: 60%;
+  width: 80%;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.porkmain {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.porkmain h1 {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: #e29104;
+  font-size: 40pt;
+}
+
+.porkpick {
+  height: 90%;
+  width: 100%;
+  padding: 0px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 10px;
+}
+
+.porkbox {
+  user-select: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background-color: rgba(116, 0, 0, 0.603);
+}
+
+.porkbox:hover {
+  background-color: rgb(134, 48, 48);
+}
+
+.porkbox h1 {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 20pt;
+  color: #00bdf8;
+}
+
+.porkbox img {
+  height: 60%;
+  width: 80%;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.seafoodmain {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.seafoodmain h1 {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: #e29104;
+  font-size: 40pt;
+}
+
+.seafoodpick {
+  height: 90%;
+  width: 100%;
+  padding: 0px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 10px;
+}
+
+.seafoodbox {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background-color: rgba(116, 0, 0, 0.603);
+}
+
+.seafoodbox:hover {
+  background-color: rgb(134, 48, 48);
+}
+
+.seafoodbox h1 {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 20pt;
+  color: #00bdf8;
+}
+
+.seafoodbox img {
+  height: 60%;
+  width: 80%;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.mainingredient {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingredienthero1 {
+  height: 90%;
+  width: 50%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ingredienthero1 h1 {
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e29104;
+  font-size: 30pt;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.ingredienthero1 h4 {
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e29104;
+  font-size: 15pt;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.ingredienthero1 img {
+  height: 90%;
+  width: 70%;
+  border: #800000 solid 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  cursor: pointer;
+}
+
+.ingredienthero2 {
+  height: 90%;
+  width: 50%;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: maroon;
+}
+
+.ingredienthero2 h1 {
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #00bdf8;
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.ingredienthero2 li {
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e29104;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.starwidget input {
+  display: none;
+}
+
+.starwidget label {
+  font-size: 40px;
+  color: #444;
+  padding: 10px;
+  float: right;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.starwidget input:not(:checked) ~ label:hover,
+.starwidget input:not(:checked) ~ label:hover ~ label {
+  color: #fd4;
+}
+
+.star5input:checked ~ .star5 {
+  color: #fd4;
+  text-shadow: 0 0 20px #952;
+}
+
+.recommendedmain {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.recommendedmain h1 {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: #e29104;
+  font-size: 40pt;
+}
+
+.recommendedpick {
+  height: 90%;
+  width: 100%;
+  padding: 0px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 10px;
+}
+
+.recommendedbox {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background-color: rgba(116, 0, 0, 0.603);
+}
+
+.recommendedbox:hover {
+  background-color: rgb(134, 48, 48);
+}
+
+.recommendedbox h1 {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 20pt;
+  color: #00bdf8;
+}
+
+.recommendedbox img {
+  height: 60%;
+  width: 80%;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+form {
+  height: 60%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modalmain {
+  position: fixed;
+  z-index: 1000;
+  top: 0px;
+  left: 0px;
+  color: #e29104;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  background-color: #232323;
+}
+
+.popUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 90%;
+  width: 90%;
+}
+
+.modal-content {
+  height: 80vh;
+  background-color: #232323;
+  margin: 15% auto;
+  padding: 20px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 20px;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  font-size: 30pt;
+  font-weight: bolder;
+}
+
+.close:hover,
+.close:focus {
+  color: #ffa200;
+  font-weight: bolder;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.searchform {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.searchtext {
+  height: 40%;
+  width: 30%;
+  border: #615f5f 2px solid;
+  border-radius: 10px;
+  margin: 3px;
+  padding-left: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15pt;
+  cursor: text;
+  color: rgb(104, 104, 104);
+}
+
+.submitsearch {
+  height: 40%;
+  width: 10%;
+  background-color: #ffa200;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 15pt;
+  font-weight: bold;
+  color: #464646;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.submitsearch:hover {
+  background-color: #e29104;
+  color: white;
+}
+
+.searchmain {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.searchmain h1 {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: #e29104;
+  font-size: 40pt;
+}
+
+.searchpick {
+  height: 90%;
+  width: 100%;
+  padding: 0px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 10px;
+}
+
+.searchbox {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background-color: rgba(116, 0, 0, 0.603);
+}
+
+.searchbox:hover {
+  background-color: rgb(134, 48, 48);
+}
+
+.searchbox h1 {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 20pt;
+  color: #00bdf8;
+}
+
+.searchbox img {
+  height: 60%;
+  width: 80%;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.dessertmain {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dessertmain h1 {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: #e29104;
+  font-size: 40pt;
+}
+
+.dessertpick {
+  height: 90%;
+  width: 100%;
+  padding: 0px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 10px;
+}
+
+.dessertbox {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background-color: rgba(116, 0, 0, 0.603);
+}
+
+.dessertbox:hover {
+  background-color: rgb(134, 48, 48);
+}
+
+.dessertbox h1 {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 20pt;
+  color: #00bdf8;
+}
+
+.dessertbox img {
+  height: 60%;
+  width: 80%;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.mainplace {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainplace h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ff7a7a;
+  font-style: italic;
+  font-size: 35pt;
+  cursor: pointer;
+}
+
+.shareRecipe {
+  height: 70%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text {
+  height: 7%;
+  width: 100%;
+  border: #615f5f 2px solid;
+  border-radius: 30px;
+  margin: 10px;
+  padding-left: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15pt;
+  color: rgb(104, 104, 104);
+}
+
+.sharedLabel {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #00bdf8;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20pt;
+}
+
+.submitshared {
+  height: 7%;
+  width: 30%;
+  background-color: #ffa200;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 15pt;
+  font-weight: bold;
+  color: #464646;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.submitshared:hover {
+  background-color: #e29104;
+  color: white;
+}
+
+.sharedform {
+  height: 100%;
+  width: 40%;
+}
+
+.addRecipeBTN {
+  height: 5%;
+  width: 10%;
+  background-color: #ffa200;
+  text-decoration: none;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 15pt;
+  font-weight: bold;
+  color: #464646;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.addRecipeBTN a{
+  height: 100%;
+  width: 100%;
+  background-color: #ffa200;
+  text-decoration: none;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 15pt;
+  font-weight: bold;
+  color: #464646;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.addRecipeBTN:hover {
+  background-color: #e29104;
+  color: white;
+}
+
+.addRecipeBTN a:hover {
+  background-color: #e29104;
+  color: white;
+}
+
+/*new*/
+.addSharedmain{
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.addSharedmain h1 {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: #e29104;
+  font-size: 40pt;
+}
+
+.sharepick {
+  height: 90%;
+  width: 100%;
+  padding: 0px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 10px;
+}
+
+.sharebox {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgba(116, 0, 0, 0.603);
+}
+
+.sharebox h1 {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 20pt;
+  color: #00bdf8;
+}
+
+.sharebox img {
+  height: 40%;
+  width: 40%;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.sharebox h4 {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 20pt;
+  color: #e29104;
+}
+
+.deleteBtn{
+  height: 78%;
+  width: 25%;
+  background-color: #ffa200;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 15pt;
+  font-weight: bold;
+  color: #464646;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.deleteBtn:hover {
+  background-color: #e29104;
+  color: whitesmoke;
+}
+
+.updateBtn {
+  height: 78%;
+  width: 25%;
+  background-color: #ffa200;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 15pt;
+  font-weight: bold;
+  color: #464646;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.updateBtn:hover {
+  background-color: #e29104;
+  color: whitesmoke;
+}
+
+.btnBox{
+  height: 10% ;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.shareTitle{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #00bdf8;
+  font-style: italic;
+  font-size: 25pt;
+  cursor: pointer;
+}
+
+.profile{
+  height: 5%;
+  width: 10%;
+  background-color: #ffa200;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: pt;
+  font-weight: bold;
+  color: #141518;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.profile:hover{
+  background-color: #d88c09;
+}
+
+.profile i{
+  font-size: 15pt;
+  color: #444;
+  transition: all 0.3s ease 0s;
+}
+
+.profile i:hover{
+  color: whitesmoke;
+}
+
+.homehero1 h4{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ff7a7a;
+  font-style: italic;
+  font-size: 15pt;
+  cursor: pointer;
+}
+
+.mainplace{
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.profilehero{
+  height: 100%;
+  width: 20%;
+  background-color: #232323;
+  display: flex;
+  border: none;
+  margin: 20px;
+  box-shadow:#34373d 0px 5px 20px 0px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profilehero img{
+  height: 40%;
+  width: 80%;
+  border:none;
+  border: #2f2f2c solid 5px;
+  border-radius: 10px ;
+}
+
+.profilehero h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ff7a7a;
+  font-size: 20pt;
+  cursor: pointer;
+}
+
+.profilehero h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #d88c09;
+  font-size: 20pt;
+  cursor: pointer;
+}
+
+.profilehero h3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ff7a7a;
+  font-size: 10pt;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.appUse{
+  height: 10%;
+  width: 70%;
+  border: none;
+  border-radius: 10px;
+  background-color: #aaa;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appUse img{
+  margin: 10px;
+  border: none;
+  height: 90%;
+  width: 25%;
+}
+
+.viewprofile a{
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #464646;
+  font-weight: bold;
+  padding: 10px;
+  font-style: italic;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 12pt;
+  cursor: pointer;
+  background-color: #ffa200;
+  transition: all 0.3s ease 0s;
+}
+
+.viewprofile a:hover{
+  background-color: #e29104;
+  color: white;
+}
